@@ -29,12 +29,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 import os
 if os.path.isfile('env.py'):
     import env
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY', 'BF37DD7727E8A3CF')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cb-djongo-todo-app-2ef4ef5bdb67.herokuapp.com']
+ALLOWED_HOSTS = ['8000-charlieburt-cifsfhellod-czaeb8csxvf.ws.codeinstitute-ide.net']
 
 
 # Application definition
